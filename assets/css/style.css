@@ -21,6 +21,16 @@ li {
     list-style: none;
 }
 
+a {
+    text-decoration: none;
+    color: var(--text-color);
+}
+
+a:hover {
+    color: #3A404E;
+    transition: 0.6s;
+}
+
 h1 {
     font-size: 18px;
     color: #3A404E;
@@ -95,7 +105,7 @@ button {
 }
 
 .content-1 {
-    margin-top: 100px;
+    margin-top: 200px;
     display: flex;
     text-align: center;
     justify-content: center;
