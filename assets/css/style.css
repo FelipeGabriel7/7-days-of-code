@@ -3,6 +3,7 @@
     padding: 0;
     box-sizing: border-box;
     outline: none;
+    font-family: 'Inter', sans-serif;
 }
 
 :root {
@@ -12,6 +13,7 @@
 
 html {
     scroll-behavior: smooth;
+    overflow-x: hidden;
 }
 
 ul,
@@ -55,6 +57,7 @@ button {
     justify-content: center;
     justify-content: space-around;
     padding: 20px;
+    background: #fff;
     font-family: 'Inter', sans-serif;
     border-bottom: 0.1px solid rgba(128, 128, 128, 0.096);
 }
@@ -72,20 +75,20 @@ button {
     color: #667085;
 }
 
-.ent,
-.cad {
+.enter-init,
+.button-init {
     color: #667085;
     border-radius: 6px;
     border: none;
     height: 4vh;
 }
 
-.ent {
+.enter-init {
     color: #667085;
     background: #fff;
 }
 
-.cad {
+.button-init {
     background: #8E2424;
     color: #fff;
     border: none;
@@ -159,6 +162,7 @@ button {
     display: flex;
     flex-direction: column;
     justify-content: flex-start;
+    font-family: 'Inter', sans-serif;
     margin: 80px 250px;
 }
 
@@ -169,6 +173,7 @@ button {
 
 .gray-text-works {
     margin-top: 5px;
+    font-size: 14px;
     color: var(--text-color);
 }
 
@@ -186,5 +191,45 @@ button {
     margin: 35px;
     padding: 25px;
     border: 1px solid #66708546;
+    border-radius: 5px;
+}
+
+.content-5 {
+    margin: 60px;
+    background: #ffb2b22c;
+    padding: 50px;
+    text-align: center;
+    display: flex;
+    gap: 15px;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.avatar {
+    width: 5%;
+    display: flex;
+    align-self: center;
+}
+
+.content-6 {
+    background: #ffb2b22c;
+    padding: 80px;
+    text-align: center;
+}
+
+.name {
+    margin-top: 20px;
+    border: 0.3px solid rgba(158, 158, 158, 0.781);
+    border-radius: 5px;
+    margin-bottom: 20px;
+    padding: 8px;
+    width: 25%;
+}
+
+.button-contact {
+    background: #8E2424;
+    color: #fff;
+    border: none;
+    padding: 8px;
     border-radius: 5px;
 }
