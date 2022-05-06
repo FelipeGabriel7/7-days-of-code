@@ -13,7 +13,12 @@
 
 html {
     scroll-behavior: smooth;
+}
+
+body {
     overflow-x: hidden;
+    max-width: 100%;
+    max-height: 100vh;
 }
 
 ul,
@@ -65,6 +70,7 @@ button {
     top: 0;
     display: flex;
     justify-content: center;
+    flex-wrap: wrap;
     justify-content: space-around;
     padding: 20px;
     background: #fff;
@@ -79,7 +85,7 @@ button {
 
 .item {
     display: flex;
-    padding: 5px;
+    padding: 8px;
     gap: 25px;
     font-size: 16px;
     color: #667085;
@@ -242,4 +248,31 @@ button {
     border: none;
     padding: 8px;
     border-radius: 5px;
+}
+
+@media(max-width: 768px) {
+    body {
+        overflow-x: hidden;
+    }
+    .container {
+        width: 100%;
+    }
+    .item {
+        position: relative;
+        left: -100px;
+        margin-top: 40px;
+        font-size: 12px;
+        text-align: center;
+    }
+    .content-2 {
+        margin: 20px;
+        font-size: 15px;
+        flex-direction: column;
+    }
+    .content-4 {
+        margin: 50px auto;
+    }
+    .title-works {
+        justify-content: center;
+    }
 }
