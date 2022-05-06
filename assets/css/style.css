@@ -272,7 +272,21 @@ button {
     .content-4 {
         margin: 50px auto;
     }
+    .img-talents {
+        width: 80%;
+        margin: 0 auto;
+    }
     .title-works {
         justify-content: center;
+    }
+}
+
+@media(max-width: 500px) {
+    .item {
+        position: relative;
+        left: 20px;
+        margin-top: 10px;
+        font-size: 12px;
+        text-align: center;
     }
 }
